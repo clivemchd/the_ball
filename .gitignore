@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+# Ignoring for deploy-app branch 
+/src
+/public
+
 # testing
 /coverage
 
