@@ -30,7 +30,7 @@ class App extends Component {
         new Vector3(0, 5, -10),
         scene
       );
-      camera.setTarget(Vector3.Zero());
+      // camera.setTarget(Vector3.Zero());
       camera.attachControl(canvas, false);
       let light = new HemisphericLight("light1", new Vector3(0, 1, 3), scene);
       let sphere = new Mesh.CreateSphere(
@@ -50,6 +50,14 @@ class App extends Component {
         scene,
         false
       );
+      scene.collisionsEnabled = true;
+      ground.checkCollisions = true;
+      sphere.checkCollisions = true;
+      camera.checkCollisions = true;
+
+      camera.onCollide = (mesh) => {
+        console.log("Colided", mesh);
+      };
       return scene;
     };
     let scene = createScene();
