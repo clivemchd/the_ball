@@ -2,6 +2,7 @@
   "name": "babylon_web_gl",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/clivemchd/the_ball.git",
   "dependencies": {
     "babylonjs": "^4.1.0",
     "react": "^16.8.6",
