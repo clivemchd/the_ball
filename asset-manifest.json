@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/the_ball/build/static/css/main.ef91a697.chunk.css",
+    "main.js": "/the_ball/build/static/js/main.9e28c880.chunk.js",
+    "main.js.map": "/the_ball/build/static/js/main.9e28c880.chunk.js.map",
+    "runtime~main.js": "/the_ball/build/static/js/runtime~main.4c41e9ee.js",
+    "runtime~main.js.map": "/the_ball/build/static/js/runtime~main.4c41e9ee.js.map",
+    "static/js/2.35b42d15.chunk.js": "/the_ball/build/static/js/2.35b42d15.chunk.js",
+    "static/js/2.35b42d15.chunk.js.map": "/the_ball/build/static/js/2.35b42d15.chunk.js.map",
+    "index.html": "/the_ball/build/index.html",
+    "precache-manifest.3cab524d0b406f39a2fdd0431266b562.js": "/the_ball/build/precache-manifest.3cab524d0b406f39a2fdd0431266b562.js",
+    "service-worker.js": "/the_ball/build/service-worker.js",
+    "static/css/main.ef91a697.chunk.css.map": "/the_ball/build/static/css/main.ef91a697.chunk.css.map",
+    "static/media/logo.svg": "/the_ball/build/static/media/logo.5d5d9eef.svg"
+  }
+}
